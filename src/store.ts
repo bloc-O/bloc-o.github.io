@@ -57,7 +57,7 @@ export function generateResidents(): Resident[] {
     "Saadi Mourad", "Tahar Saliha", "Uthman Bilal", "Vidal Salim",
     "Wahid Farid", "Xhaferi Nora", "Yahia Omar", "Ziane Ines",
     "Abbas Tarek", "Bacha Djamila", "Charef Anes", "Debbih Loubna",
-    "Essaidi Mehdi", "Farid Sabrina", "Guechi Sofiane", "Hamida Dalila",
+    "Essaidi Mehdi", "Farid Sabrina", "Guechi Sofiane", "Hamida Dalila","Walid Helis","l3ayech Hamza"
   ];
   return names.slice(0, 38).map((name, i) => ({
     id: `r${i + 1}`,
