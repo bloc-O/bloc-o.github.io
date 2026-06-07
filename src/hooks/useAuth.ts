@@ -5,9 +5,9 @@ export function checkAuth(): boolean {
 }
 
 export function login(password: string): boolean {
-  // Mot de passe par défaut : immeuble2024
+  // Mot de passe par défaut : bloco
   // Tu peux le modifier ci-dessous
-  if (password === "immeuble2024") {
+  if (password === "bloco") {
     localStorage.setItem(AUTH_KEY, "ok");
     return true;
   }
